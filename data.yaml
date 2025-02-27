@@ -1,0 +1,15 @@
+train: E:/PROTOTYPE/train/images
+val: E:/PROTOTYPE/valid/images
+test: E:/PROTOTYPE/test/images
+
+
+nc: 1
+names: ['pothole']
+
+roboflow:
+  workspace: data-k8ask
+  project: pothole-g68km
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/data-k8ask/pothole-g68km/
+  
